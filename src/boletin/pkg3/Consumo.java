@@ -49,4 +49,8 @@ public class Consumo {
     public void setPG(float h){
         pgas = h;
     }
+    public int getV (){
+        int v =0;
+        return v;
+    }
 }

@@ -26,6 +26,9 @@ public class Boletin3 {
         v=131;
         p=1.7f;
         Consumo cons2 = new Consumo(k,l,v,p);
+         System.out.println("Consumo medio ="+ cons2.consumoMedio());
+        cons2.setL(20f);
+        System.out.println("Velocidade media "+ cons2.getV());
     }
     
 }
